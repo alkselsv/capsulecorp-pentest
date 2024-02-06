@@ -1,0 +1,6 @@
+---
+- name: Place exercise flag
+  template:
+    src: "{{ anpt_flag }}"
+    dest: "C:\\flag.txt"
+  register: anpt_flag_placed
